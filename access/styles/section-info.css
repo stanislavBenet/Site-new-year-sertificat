@@ -78,7 +78,7 @@ img.info_article_img:nth-child(2){
    .info {
       background-image: url(./../images/bg-images/bg-info.png);
       background-position: top;
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       height: 5733px;
    }
