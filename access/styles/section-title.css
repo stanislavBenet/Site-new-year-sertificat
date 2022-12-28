@@ -1,0 +1,39 @@
+.title {
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   max-height: 645px;
+   padding: var(--padding-size);
+   background-color: var(--color-main);
+
+   background-image: url(./../images/bg-images/bg-mobile.png);
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   background-size: 100% auto, cover;
+   color: #ffffff;
+}
+
+.title .btn {
+   align-self: center;
+   margin-top: auto;
+}
+.title_header {
+   margin-top: calc(var(--padding-size) * 2);
+}
+.title__heading {
+   margin-top: calc(var(--padding-size) * 3);
+   line-height: 1.23em;
+}
+.title__article p {
+   font-weight: 600;
+   margin-top: calc(var(--padding-size));
+}
+
+@media (min-width: 992px) {
+   .title {
+      min-height: 600px;
+      background-image: url(./../images/bg-images/bg-desctop.png);
+      background-position: center;
+      background-size: cover;
+   }
+}

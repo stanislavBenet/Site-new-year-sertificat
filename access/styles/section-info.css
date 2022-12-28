@@ -1,0 +1,192 @@
+.info {
+   background-color: var(--color-info);
+   height: 100vh;
+   padding: var(--padding-size);
+   text-align: center;
+}
+.info_article {
+   margin-bottom: 72px;
+}
+.info_article:first-child {
+   margin-bottom: 45px;
+}
+
+img.info_article_img:nth-child(2){
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+.info_article_heading {
+   color: var(--color-black);
+   font-size: 1.9rem;
+   font-weight: bold;
+   margin-bottom: 1rem;
+}
+.info_article_heading__redcolor {
+   color: var(--color-main);
+   margin: auto;
+   margin-top: 47px;
+}
+
+
+
+.info_article_p__country {
+   background-color: var(--color-bg-country);
+   border-radius: 10px;
+   margin: calc(var(--padding-size) / 2);
+}
+
+.info_container_country-UK-line-mob-1 {
+   width: 250px;
+   display: grid;
+   grid-template-columns: 1fr 1.11fr 1.265fr;
+   margin: auto;
+   margin-top: calc(2 * var(--padding-size));
+}
+
+.info_container_country-UK-line-mob-2 {
+   width: 278px;
+   display: grid;
+   grid-template-columns: 1fr 0.45fr 0.58fr 1fr;
+   margin: auto;
+}
+.info_container_country-UK-line-mob-3 {
+   width: 233px;
+   display: grid;
+   grid-template-columns: 0.55fr 0.76fr 1fr;
+   margin: auto;
+}
+
+.info_container_country-IRL-mob {
+   width: 250px;
+   display: grid;
+   grid-template-columns: 0.79fr 0.88fr 1fr;
+   margin: auto;
+   margin-top: calc(2 * var(--padding-size));
+}
+
+.hidden {
+   display: none;
+}
+
+.info_container_country-UK-line-1,
+.info_container_country-UK-line-2,
+.info_container_country-IRL {
+   display: none;
+}
+
+@media screen and (min-width: 992px) {
+   .info {
+      background-image: url(./../images/bg-images/bg-info.png);
+      background-position: top;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 5733px;
+   }
+   .info_article_p__country {
+      background-color: var(--color-bg-country);
+      border-radius: 20px;
+      height: 50px;
+      padding: var(--padding-size);
+      margin-bottom: 22px;
+   }
+   .info_article_heading__redcolor {
+      width: calc(1.26 * var(--width-img));
+      color: var(--color-main);
+      font-size: 2.82rem;
+      margin: auto;
+      margin-top: 47px;
+   }
+   .info_article_p {
+      width: calc(1.26 * var(--width-img));
+      margin: auto;
+   }
+   .info_container_country-UK-line-mob-1,
+   .info_container_country-UK-line-mob-2,
+   .info_container_country-UK-line-mob-3,
+   .info_container_country-IRL-mob {
+      display: none;
+   }
+   .show {
+      display: block;
+   }
+   .info_article:first-child {
+      margin-bottom: 79px;
+   }
+
+   .info_article {
+      margin-bottom: 132px;
+   }
+   .info_container_country-UK-line-1 {
+      width: calc(1.2 * var(--width-img));
+      display: grid;
+      grid-template-columns: 0.83fr 0.9fr 1fr 0.83fr 0.53fr 0.64fr;
+      margin: auto;
+      margin-top: calc(4 * var(--padding-size));
+      padding: auto;
+   }
+   .info_container_country-UK-line-2 {
+      width: calc(0.9 * var(--width-img));
+      display: grid;
+      grid-template-columns: 0.95fr 0.61fr 0.78fr 1fr;
+      margin: auto;
+      padding: auto;
+   }
+   .info_container_country-IRL {
+      width: calc(0.39 * var(--width-img));
+      display: grid;
+      grid-template-columns: 0.95fr 1fr;
+      margin: auto;
+      margin-top: calc(4 * var(--padding-size));
+      padding: auto;
+   }
+
+   .info_container_country-USA-line-1 {
+      width: calc(1.24 * var(--width-img));
+      display: grid;
+      grid-template-columns: 0.77fr 1fr 0.57fr 0.83fr 0.76fr;
+      margin: auto;
+      margin-top: calc(4 * var(--padding-size));
+      padding: auto;
+   }
+   .info_container_country-USA-line-2 {
+      width: var(--width-img);
+      display: grid;
+      grid-template-columns: 1fr 0.55fr 0.72fr 0.68fr;
+      margin: auto;
+      padding: auto;
+   }
+   .info_container_country-EUR-line-1 {
+      width: calc(1.158 * var(--width-img));
+      display: grid;
+      grid-template-columns: 0.5fr 0.6fr 1fr;
+      margin: auto;
+      margin-top: calc(4 * var(--padding-size));
+      padding: auto;
+   }
+   .info_container_country-EUR-line-2 {
+      width: calc(1.112 * var(--width-img));
+      display: grid;
+      grid-template-columns: 0.38fr 1fr;
+      margin: auto;
+      padding: auto;
+   }
+   span {
+      font-size: 0.63rem;
+   }
+   .info_container_country-OAE {
+      width: calc(0.26 * var(--width-img));
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: auto;
+      margin-top: calc(4 * var(--padding-size));
+      padding: auto;
+   }
+   .info_container_country-MEX {
+      width: calc(0.26 * var(--width-img));
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: auto;
+      margin-top: calc(4 * var(--padding-size));
+      padding: auto;
+   }
+}
