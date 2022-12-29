@@ -35,10 +35,3 @@ h1{
 strong {
    font-weight: 900;
 }
-@media (min-width: 992px) {
-   :root{
-      font-size: 22px;
-      line-height: 36px;
-   }
-   
-}

@@ -29,11 +29,36 @@
    margin-top: calc(var(--padding-size));
 }
 
+@media (min-width: 576px) {
+   .title {
+      min-height: 400px;
+      background-image: url(./../images/bg-images/bg-desctop.png);
+      background-position: right top;
+      background-size: cover;
+   }
+   .title__heading {
+      max-width: 470px;
+      margin-left: 80px;
+      margin-top: calc(var(--padding-size) * 3);
+      font-size: 2.36rem;
+   }
+   .title__article p {
+      max-width: 470px;
+      margin-left: 80px;
+      margin-top: calc(var(--padding-size));
+   }
+   .title .btn {
+      position: absolute;
+      top:350px;
+      left: 80px;
+   }
+}
+
 @media (min-width: 992px) {
    .title {
-      min-height: 600px;
+      min-height: 100vh;
       background-image: url(./../images/bg-images/bg-desctop.png);
-      background-position: center;
+      background-position: right top;
       background-size: cover;
    }
    .title__heading {
@@ -49,7 +74,7 @@
    }
    .title .btn {
       position: absolute;
-      top:450px;
+      top:350px;
       left: 100px;
    }
 }

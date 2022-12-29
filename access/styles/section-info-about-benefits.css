@@ -1,0 +1,39 @@
+.infoBenefits {
+   display: block;
+   margin: auto;
+   margin-top: 60px;
+   margin-left: 10px;
+}
+.infoBenefits_heading {
+   font-size: 1.375rem;
+   font-weight: 900;
+}
+.red-span {
+   color: var(--color-main);
+}
+.infoBenefits_p {
+   margin-top: 44px;
+   margin-bottom: 44px;
+}
+.infoBenefits_btn {
+   display: block;
+
+   background-color: var(--color-main);
+   color: white;
+
+   font-weight: 900;
+
+   border-radius: 2rem;
+   border: 1px solid #c90101;
+
+   text-align: center;
+
+   width: 95%;
+
+   padding: 1rem;
+   margin: auto;
+}
+
+.infoBenefits_btn:hover {
+   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
+}
