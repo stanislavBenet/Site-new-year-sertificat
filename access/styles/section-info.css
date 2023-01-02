@@ -11,7 +11,7 @@
    margin-bottom: 45px;
 }
 
-img.info_article_img:nth-child(2){
+img.info_article_img:nth-child(2) {
    margin-top: 15px;
    margin-bottom: 25px;
 }
@@ -26,8 +26,6 @@ img.info_article_img:nth-child(2){
    margin: auto;
    margin-top: 47px;
 }
-
-
 
 .info_article_p__country {
    font-size: 0.55rem;
@@ -90,6 +88,7 @@ img.info_article_img:nth-child(2){
       height: 50px;
       padding: var(--padding-size);
       margin-bottom: 22px;
+      font-size: 1.375rem;
    }
    .info_article_heading__redcolor {
       width: calc(1.26 * var(--width-img));
@@ -173,7 +172,7 @@ img.info_article_img:nth-child(2){
       padding: auto;
    }
    span {
-      font-size: 0.9rem;
+      font-size: 0.87rem;
    }
    .info_container_country-OAE {
       width: calc(0.26 * var(--width-img));
