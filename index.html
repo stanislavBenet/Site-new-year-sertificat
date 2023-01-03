@@ -16,7 +16,7 @@
          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
          rel="stylesheet"
       />
-      <link rel="shortcut icon" href="./access/" type="image/x-icon" />
+      <link rel="shortcut icon" href="./access/favicon.png" type="image/x-icon" />
       <link rel="stylesheet" href="./access/styles/reset.css" />
       <link rel="stylesheet" href="./access/styles/style.css" />
       <link rel="stylesheet" href="./access/styles/btn.css" />
@@ -24,17 +24,19 @@
       <link rel="stylesheet" href="./access/styles/section-info.css" />
       <link rel="stylesheet" href="./access/styles/section-info-about-benefits.css" />
       <link rel="stylesheet" href="./access/styles/section-make-gift.css" />
-      <link rel="stylesheet" href="/access/styles/section-stepp.css" />
+      <link rel="stylesheet" href="/access/styles/section-step.css" />
+      <link rel="stylesheet" href="./access/styles/section-serteficate.css" />
+      <link rel="stylesheet" href="./access/styles/footer.css" />
 
       <title>НР Сертифікат | STUDY.UA</title>
    </head>
    <body>
       <section class="title">
          <header class="title_header">
-            <a href="" class="logo">
+            <a href="#" class="logo">
                <picture>
                   <source srcset="./access/images/logo.png" media="" />
-                  <img src="./access/images/logo.png" alt="" />
+                  <img src="./access/images/logo.png" alt="logo" />
                </picture>
             </a>
          </header>
@@ -46,7 +48,7 @@
                <strong>понад 100 ідей для незабутнього подарунка!</strong>
             </p>
          </article>
-         <a href="" class="btn">Подарувати</a>
+         <a href="#serteficate" class="btn">Подарувати</a>
       </section>
       <section class="info">
          <article class="info_article">
@@ -60,7 +62,7 @@
                />
                <img
                   src="./access/images/items/item-gift-info.png"
-                  alt="Подарунок"
+                  alt="gift"
                   class="info_article_img"
                />
             </picture>
@@ -83,7 +85,7 @@
                />
                <img
                   src="./access/images/photo-images/photo-UK.jpg"
-                  alt="Фото людей"
+                  alt="people"
                   class="info_article_img"
                />
             </picture>
@@ -131,7 +133,7 @@
                />
                <img
                   src="./access/images/photo-images/photo-irland.jpg"
-                  alt="Фото людей"
+                  alt="people"
                   class="info_article_img"
                />
             </picture>
@@ -154,7 +156,7 @@
                />
                <img
                   src="./access/images/photo-images/photo-USA.jpg"
-                  alt="Фото людей"
+                  alt="people"
                   class="info_article_img"
                />
             </picture>
@@ -181,7 +183,7 @@
                />
                <img
                   src="./access/images/photo-images/photo-Europe.jpg"
-                  alt="Фото людей"
+                  alt="people"
                   class="info_article_img"
                />
             </picture>
@@ -208,7 +210,7 @@
                />
                <img
                   src="./access/images/photo-images/photo-OAE.jpg"
-                  alt="Фото людей"
+                  alt="people"
                   class="info_article_img"
                />
             </picture>
@@ -225,7 +227,7 @@
                />
                <img
                   src="./access/images/photo-images/photo-Mexic.jpg"
-                  alt="Фото людей"
+                  alt="people"
                   class="info_article_img"
                />
             </picture>
@@ -253,7 +255,7 @@
                <strong>нових знайомств,</strong> сотень вражень та веселих розваг!
             </p>
          </div>
-         <a class="infoBenefits_btn" href="#">Придбати сертефікат</a>
+         <a class="infoBenefits_btn" href="#serteficate">Придбати сертефікат</a>
       </section>
       <section class="makeGift">
          <div class="containerGift">
@@ -271,12 +273,12 @@
             </article>
             <article class="makeGift_article_box">
                <h2 class="makeGift_heading_logo">
-                  <img src="./access/images/-€300.svg" alt="цена" />
+                  <img src="./access/images/-€300.svg" alt="price" />
                </h2>
                <p class="makeGift_p_box">
                   Тільки до 25 грудня — обирайте поїздку зі знижкою €300!
                </p>
-               <a href="" class="makeGift_btn">Зробити подарунок</a>
+               <a href="#serteficate" class="makeGift_btn">Зробити подарунок</a>
             </article>
          </div>
       </section>
@@ -288,11 +290,7 @@
          <div class="step_container">
             <article class="step_article">
                <div class="step_item">
-                  <img
-                     src="./access/images/items/step-1.svg"
-                     alt=""
-                    
-                  />
+                  <img src="./access/images/items/step-1.svg" alt="" />
                </div>
                <div class="step_content">
                   <h3>Крок 1</h3>
@@ -340,7 +338,49 @@
                </div>
             </article>
          </div>
-         <a href="" class="step_btn">Хочу сертефікат</a>
+         <a href="#serteficate" class="step_btn">Хочу сертефікат</a>
       </section>
+      <section class="serteficate">
+         <a name="serteficate"></a>
+         <div class="serteficate_container">
+            <img
+               class="serteficate_img"
+               src="./access/images/items/serteficate.png"
+               alt="serteficate"
+            />
+            <article class="serteficate_article">
+               <h2 class="serteficate_heading">
+                  Сертифікат на групову поїздку за кордон для вашої дитини
+               </h2>
+               <p class="serteficate_p">
+                  чудовий спосіб висловити турботу, обрати корисний подарунок, який
+                  залишить враження на все життя!
+               </p>
+            </article>
+         </div>
+
+         <form action="#">
+            <input type="text" name="name" placeholder="Ваше Ім'я" required />
+            <input type="tel" name="tel" placeholder="Номер телефону" required />
+            <input type="email" name="email" placeholder="E-Mail" required />
+            <input type="submit" value="Хочу сертефікат" />
+         </form>
+      </section>
+      <footer class="footer">
+         <div class="footer_container">
+            <article class="footer_link_1">
+               <a href="#top">STUDY.UA.</a>
+               <a href="https://goo.gl/maps/qv7xYxDxivEiT81c9" target="_blank"
+                  >Київ, вул. Драгомирова, 16 метро «Дружби Народів»</a
+               >
+            </article>
+            <article class="footer_link_2">
+               <a href="tel:+38 044 500-03-20">+38 044 500-03-20</a>
+               <a href="tel:+38 093 000-03-20">+38 093 000-03-20</a>
+               <a href="tel:+38 097 000-03-20">+38 097 000-03-20</a>
+            </article>
+         </div>
+         <p>Всі права захищені. 1999—2021(c)</p>
+      </footer>
    </body>
 </html>
